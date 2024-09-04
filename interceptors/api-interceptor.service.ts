@@ -3,8 +3,10 @@ import { HttpInterceptorFn } from '@angular/common/http';
 export const urlInterceptor: HttpInterceptorFn = (req, next) => {
   console.log('Intercepting request');
   // Modify the request URL here
+  let url = process.env['ApiUrl'] || 'UNDEFINED';
+
   const modifiedRequest = req.clone({
-    url: `https://internal.blockcert.net/${req.url}`,
+    url: `${url}/${req.url}`,
   });
 
   return next(modifiedRequest);
