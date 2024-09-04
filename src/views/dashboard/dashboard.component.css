@@ -1,0 +1,6 @@
+.connect-button {
+    color: white;
+    --mdc-fab-container-color: #0277bd;
+    --mdc-fab-small-container-color: #0277bd;
+    width: 100%;
+}

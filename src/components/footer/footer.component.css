@@ -1,0 +1,47 @@
+.footer-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.network-details {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* Space between the details */
+    font-size: 14px;
+    color: #333;
+    flex-wrap: wrap;
+}
+
+.network-details a {
+    color: #0277bd;
+    text-decoration: none;
+}
+
+.copy {
+    cursor: pointer;
+}
+
+.network-details p {
+    margin: 0;
+}
+
+.hvalue {
+    color: #0277bd;
+
+}
+
+.network-details span {
+    white-space: nowrap;
+    /* Prevent wrapping of individual elements */
+}

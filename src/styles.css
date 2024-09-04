@@ -1,0 +1,114 @@
+/* Global Styles */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #E3F2FD;
+    /* Light Blue background */
+}
+
+/* Toolbar */
+.toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #0277BD !important;
+    /* Primary Blue Color */
+    color: #FFFFFF !important;
+    /* On Primary Color */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    /* Ensure toolbar is on top */
+}
+
+.app-title {
+    font-weight: bold;
+    font-size: medium;
+    color: #FFFFFF;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.wallet-address {
+    font-size: 0.9rem;
+    color: #cfacd4be;
+    /* Secondary Purple Color */
+    margin-left: 15px;
+}
+
+
+/* Content Container */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 112px);
+    /* Full screen minus the toolbar */
+    padding: 20px;
+}
+
+/* Main Content */
+.main-content {
+    text-align: center;
+}
+
+/* Welcome Section */
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.dripping-icon {
+    font-size: 4rem;
+    color: #0277BD;
+    /* Primary Blue Color */
+}
+
+.welcome-message h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0277BD;
+    /* Primary Blue Color */
+}
+
+.welcome-message p {
+    font-size: 1.2rem;
+    color: #0277BD;
+    /* Primary Blue Color */
+}
+
+/* User Info Section */
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-details h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0277BD;
+    /* Primary Blue Color */
+}
+
+.faucet-balance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0277BD;
+    /* Primary Blue Color */
+}
+
+.faucet-next {
+    font-size: 1.2rem;
+    color: #0277BD;
+    /* Primary Blue Color */
+}

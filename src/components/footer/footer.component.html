@@ -1,0 +1,54 @@
+<!-- Footer Section for Network Details -->
+<footer class="footer-container">
+  <div class="network-details">
+    <div
+      (click)="copyToCliboard('Shadowkeep')"
+      matRipple
+      [matRippleColor]="color"
+      class="copy"
+    >
+      <p><strong>Name:</strong> <span class="hvalue">Shadowkeep</span></p>
+    </div>
+    <div
+      (click)="copyToCliboard('https://rpc.blockcert.net')"
+      matRipple
+      [matRippleColor]="color"
+      class="copy"
+    >
+      <p>
+        <strong>RPC URL:</strong>
+        <span class="hvalue">https://rpc.blockcert.net</span>
+      </p>
+    </div>
+    <div
+      (click)="copyToCliboard('1337')"
+      matRipple
+      [matRippleColor]="color"
+      class="copy"
+    >
+      <p><strong>Port:</strong> <span class="hvalue">1337</span></p>
+    </div>
+    <div
+      (click)="copyToCliboard('ETH')"
+      matRipple
+      [matRippleColor]="color"
+      class="copy"
+    >
+      <p><strong>Symbol:</strong> <span class="hvalue">ETH</span></p>
+    </div>
+
+    <div
+      (click)="copyToCliboard('https://explorer.blockert.net')"
+      matRipple
+      [matRippleColor]="color"
+      class="copy"
+    >
+      <p>
+        <strong>Explorer:</strong>
+        <a href="https://explorer.blockert.net" target="_blank"
+          >Block Explorer</a
+        >
+      </p>
+    </div>
+  </div>
+</footer>
